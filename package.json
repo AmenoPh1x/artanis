@@ -1,0 +1,23 @@
+{
+  "name": "artanis",
+  "version": "0.1.0",
+  "description": "Artanis is a ligth web browser that lets you focus into one single thing increasing your productivity.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmenoPh1x/artanis.git"
+  },
+  "author": "Christian Amenós",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmenoPh1x/artanis/issues"
+  },
+  "homepage": "https://github.com/AmenoPh1x/artanis#readme",
+  "devDependencies": {
+    "electron": "^3.0.0"
+  }
+}
