@@ -1,0 +1,12 @@
+#browser-actions {
+  height:28px;
+}
+
+webview {
+  width: 100%;
+  height: 100%;
+}
+
+#webview {
+  height:calc(100vh - 28px);
+}

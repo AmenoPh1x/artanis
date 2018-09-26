@@ -2,8 +2,20 @@
 <html>
   <head>
     <title>Artemis - Just surf the web</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/browser.css">
   </head>
   <body>
-    <h1>Hello world</h1>
+    <div id="browser-actions">
+      <span>&lt;</span>
+      <span>&gt;</span>
+      <div class="field-wrapper">
+        <input type="search" id="browse-search" class="input" placeholder="Search"/>
+      </div>
+    </div>
+    <webview id="webview" class="page" src="http://www.google.com/" autosize="on"></webview>
+    <script>
+      require('./js/browse.js');
+    </script>
   </body>
 </html>
